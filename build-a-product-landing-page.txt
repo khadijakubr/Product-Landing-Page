@@ -1,0 +1,289 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STRDY.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://live.staticflickr.com/65535/53972324617_c33746cd92.jpg" alt="logo"/>
+      <nav id="nav-bar">
+        <ul class="menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#inspirations" class="nav-link">Inspirations</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="home">
+        <h1>Let our tableware inspire your creativity at the table.</h1>
+        <button>View More</button>
+      </section>
+      <section id="products">
+        <h2>Best Seller</h2>
+        <p class="section-caption best">These are our best selling products of all time</p>
+        <div class="img-container">
+          <figure>
+            <img href="https://www.flickr.com/photos/192354537@N02/53972903769/in/dateposted-public/"><img src="https://live.staticflickr.com/65535/53972903769_475aaf8f5b.jpg" width="281" height="500" alt="Matcha Bowl"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+              <h4 class="product-name">Matcha Bowl</h4>
+              <p>Made from borosillicate glass, available in 2 sizes</p>
+              <h5 class="price">IDR 99K - 114,5K</h5>
+            </figcaption>
+          </figure>
+          <figure>
+            <img href="https://www.flickr.com/photos/192354537@N02/53972900789/in/dateposted-public/"><img src="https://live.staticflickr.com/65535/53972900789_0d8c638b5c.jpg" width="281" height="500" alt="Bubble Glass Low"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+              <h4 class="product-name">Bubble Glass Low</h4>
+              <p>Made from borosillicate glass that can hold up to 360 ml of liquid</p>
+              <h5 class="price">IDR 54,9K</h5>
+            </figcaption>
+          </figure>
+          <figure>
+            <img href="https://www.flickr.com/photos/192354537@N02/53973486085/in/dateposted-public"><img src="https://live.staticflickr.com/65535/53973486085_69a175b25e.jpg" width="281" height="500" alt="Mini pourer with handle"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+              <h4 class="product-name">Mini pourer with handle</h4>
+              <p>Made from borosillicate glass that can hold up to 200 ml of liquid</p>
+              <h5 class="price">IDR 54,9K</h5>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="inspirations">
+        <h2>Inspirations</h2>
+        <p class="section-caption">Discover more inspiration on how to elevate your table settings and choose the perfect tableware for every special occasion.</p>
+        <div class="video-container">
+          <video id="video" class="video" src="https://live.staticflickr.com/video/53971695757/7b8b00b00a/1080p.mp4?s=eyJpIjo1Mzk3MTY5NTc1NywiZSI6MTcyNTU0NjA1MiwicyI6Ijc1YmZmMWI4ZjFhMzc4Y2ZhYjBkMjQzZGQ5MjNiNGIwY2Y5ZGUxNmQiLCJ2IjoxfQ" type="video/mp4" controls>
+            <source src="https://live.staticflickr.com/video/53971695757/7b8b00b00a/1080p.mp4?s=eyJpIjo1Mzk3MTY5NTc1NywiZSI6MTcyNTU0NjA1MiwicyI6Ijc1YmZmMWI4ZjFhMzc4Y2ZhYjBkMjQzZGQ5MjNiNGIwY2Y5ZGUxNmQiLCJ2IjoxfQ" type="video/mp4">
+          </video>
+          <video class="video" controls>
+            <source src="https://live.staticflickr.com/video/53972816148/2ef090f356/1080p.mp4?s=eyJpIjo1Mzk3MjgxNjE0OCwiZSI6MTcyNTU0OTg2NSwicyI6IjVhMDQ4MzY3MjhmNDUzNWNmNjdiMzUzOTQ3NTQ4ODhjOTdiYzU0NGUiLCJ2IjoxfQ" type="video/mp4">
+          </video>
+          <video class="video" controls>
+            <source src="https://live.staticflickr.com/video/53973016810/10675e4a37/1080p.mp4?s=eyJpIjo1Mzk3MzAxNjgxMCwiZSI6MTcyNTU0OTg3MywicyI6IjJmYzU0ZmY0NDE4NWY2YTM2NzYzZjY3MmEzNTNiYjE0YjMwYWRhYzQiLCJ2IjoxfQ" type="video/mp4">
+          </video>
+        </div>
+      </section>
+      <section id="about">
+        Join our newsletter to get more inspirations and update about our new products!
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" name="email" placeholder="Enter your email here...">
+          <br>
+          <input type="submit" id="submit">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  background: #E5E4E2;
+}
+
+#main {
+  max-width: 90%;
+  margin: auto;
+}
+
+/*nav bar section */
+#header {
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+#header-img {
+  display: flex;
+  width: 150px;
+  margin-left: 0;
+  float: left;
+  position: fixed;
+}
+
+#nav-bar {
+  display: block;
+  width: 100% !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 15px;
+  background-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  background-color: black;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*header section */
+.home {
+  margin: 30px 20px;
+  padding: 50px;
+}
+
+h1 {
+  max-width: 80vw;
+  padding: 30px;
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-family: "Playfair Display", serif;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* products section */
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-caption best {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+figure {
+  margin: 30px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+figure img:before {
+ margin-left: 5px;
+}
+
+figcaption {
+  margin: 20px auto;
+}
+
+.img-container {
+  display: flex;
+  overflow: scroll;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/*inspirations section*/
+#inspirations {
+  margin: 50px auto;
+}
+
+.section-caption {
+  max-width: 70vw;
+  text-align: center;
+  margin: auto;
+  padding: 30px 0 0 0;
+}
+
+.video-container {
+  display: flex;
+  overflow: scroll;
+  margin: 30px auto;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.video {
+  border-radius: 50px;
+  padding: 30px 40px;
+}
+
+/*about sections*/
+#about {
+  margin: 30px;
+  padding: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+}
+
+#email {
+  margin: 20px;
+  width: 50vw;
+  height: 60px;
+  text-align: center;
+  font-family: "playfair-display", serif;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+#submit {
+  padding: 10px;
+  background-color: #808080;
+  border: none;
+  width: 50vw;
+  color: white;
+  font-family: "Playfair Display", serif;
+  border-radius: 5px
+}
+
+#submit:hover {
+  background-color: #71797E;
+}
+
+** end of undefined **
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STRDY.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://live.staticflickr.com/65535/53972324617_c33746cd92.jpg" alt="logo"/>
+      <nav id="nav-bar">
+        <ul class="menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#inspirations" class="nav-link">Inspirations</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="home">
+        <h1>Let our tableware inspire your creativity at the table.</h1>
+        <button>View More</button>
+      </section>
+      <section id="products">
+        <h2>Best Seller</h2>
+        <p class="section-caption best">These are our best selling products of all time</p>
+        <div class="img-container">
+          <figure>
+            <img href="https://www.flickr.com/photos/192354537@N02/53972903769/in/dateposted-public/"><img src="https://live.staticflickr.com/65535/53972903769_475aaf8f5b.jpg" width="281" height="500" alt="Matcha Bowl"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+              <h4 class="product-name">Matcha Bowl</h4>
+              <p>Made from borosillicate glass, available in 2 sizes</p>
+              <h5 class="price">IDR 99K - 114,5K</h5>
+            </figcaption>
+          </figure>
+          <figure>
+            <img href="https://www.flickr.com/photos/192354537@N02/53972900789/in/dateposted-public/"><img src="https://live.staticflickr.com/65535/53972900789_0d8c638b5c.jpg" width="281" height="500" alt="Bubble Glass Low"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+              <h4 class="product-name">Bubble Glass Low</h4>
+              <p>Made from borosillicate glass that can hold up to 360 ml of liquid</p>
+              <h5 class="price">IDR 54,9K</h5>
+            </figcaption>
+          </figure>
+          <figure>
+            <img href="https://www.flickr.com/photos/192354537@N02/53973486085/in/dateposted-public"><img src="https://live.staticflickr.com/65535/53973486085_69a175b25e.jpg" width="281" height="500" alt="Mini pourer with handle"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <figcaption>
+              <h4 class="product-name">Mini pourer with handle</h4>
+              <p>Made from borosillicate glass that can hold up to 200 ml of liquid</p>
+              <h5 class="price">IDR 54,9K</h5>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="inspirations">
+        <h2>Inspirations</h2>
+        <p class="section-caption">Discover more inspiration on how to elevate your table settings and choose the perfect tableware for every special occasion.</p>
+        <div class="video-container">
+          <video id="video" class="video" src="https://live.staticflickr.com/video/53971695757/7b8b00b00a/1080p.mp4?s=eyJpIjo1Mzk3MTY5NTc1NywiZSI6MTcyNTU0NjA1MiwicyI6Ijc1YmZmMWI4ZjFhMzc4Y2ZhYjBkMjQzZGQ5MjNiNGIwY2Y5ZGUxNmQiLCJ2IjoxfQ" type="video/mp4" controls>
+            <source src="https://live.staticflickr.com/video/53971695757/7b8b00b00a/1080p.mp4?s=eyJpIjo1Mzk3MTY5NTc1NywiZSI6MTcyNTU0NjA1MiwicyI6Ijc1YmZmMWI4ZjFhMzc4Y2ZhYjBkMjQzZGQ5MjNiNGIwY2Y5ZGUxNmQiLCJ2IjoxfQ" type="video/mp4">
+          </video>
+          <video class="video" controls>
+            <source src="https://live.staticflickr.com/video/53972816148/2ef090f356/1080p.mp4?s=eyJpIjo1Mzk3MjgxNjE0OCwiZSI6MTcyNTU0OTg2NSwicyI6IjVhMDQ4MzY3MjhmNDUzNWNmNjdiMzUzOTQ3NTQ4ODhjOTdiYzU0NGUiLCJ2IjoxfQ" type="video/mp4">
+          </video>
+          <video class="video" controls>
+            <source src="https://live.staticflickr.com/video/53973016810/10675e4a37/1080p.mp4?s=eyJpIjo1Mzk3MzAxNjgxMCwiZSI6MTcyNTU0OTg3MywicyI6IjJmYzU0ZmY0NDE4NWY2YTM2NzYzZjY3MmEzNTNiYjE0YjMwYWRhYzQiLCJ2IjoxfQ" type="video/mp4">
+          </video>
+        </div>
+      </section>
+      <section id="about">
+        Join our newsletter to get more inspirations and update about our new products!
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" name="email" placeholder="Enter your email here...">
+          <br>
+          <input type="submit" id="submit">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
